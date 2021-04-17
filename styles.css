@@ -1,3 +1,6 @@
+/* :root{
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+} */
 body{
     background-color: #fffbf7;
     margin: 0px;
@@ -12,6 +15,15 @@ h1{
     font-weight: 900;
     line-height: 1.2;
 }
+h3{
+    color: #025157;
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom: 24px;
+    font-family: 'Alegreya', serif;
+    font-weight: 800;
+    line-height: 1.2;
+}
 h4{
     color:#46484c;
     font-weight: 500;
@@ -21,10 +33,17 @@ font-family: "Slabo 27px", serif;
 font-size: 20px;
 margin-bottom: 30px;
 }
-p{
+main p{
     color:#8b8b8bcc;
 }
 /* --------------------header------------------------ */
+.fixed-header{
+    position:fixed;
+    top:0;
+    left:0;
+    right: 0;
+    background-color: #fffbf7;
+}
 button{
     background-color: #025157;
     color: #fff;
@@ -34,6 +53,7 @@ button{
     padding: 6px 20px;
     margin-left: -10px;
     font-size: 18px;
+    font-weight: 100;
 }
 .action_button { 
     color:#67b54b;
@@ -44,12 +64,11 @@ button{
     background-color: #67b54b;
     padding-left: 14px;
     padding-right: 14px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 14px;
+    padding-bottom: 14px;
     border: 0;
     border-radius: 5px;
-    margin-left: 0px;
-    
+    margin-left: 10px;
 }
 header{
     display:flex;
@@ -62,7 +81,7 @@ header{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 0px; */
-    margin: 40px 20px 0px 20px;
+    margin: 10px 20px 0px 20px;
     font-size: 18px;
 }
 .header li{
@@ -89,16 +108,17 @@ ul{
 } */
 /* --------------------main------------------------ */
 main{
-    margin-top: 285px;
+    margin: 285px 0 20px;
     display:flex;
     flex-direction: column;
     text-align:center;
     align-items: center;
 }
-.form01{
+.form{
     display: flex;
+    height: 55px;
 }
-.form01 input{
+.form input{
     border: 1px solid #b6b6b6;
     padding: 6px 20px;
     width: 60%;
@@ -107,7 +127,7 @@ main{
     font-size: inherit;
     border-radius: 8px;
 }
-.form01 button{
+.form button{
     height: 100%;
     border-radius: 8px;
     background-color: #025157;
@@ -125,5 +145,49 @@ main >:last-child{
     width: 70%;
     margin-top: 10px;
 }
+/* --------------------section01------------------------ */
+.section01{
+    border: 5px solid red;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:70%;
+    margin:100px auto;
+    font-family: "Open Sans", sans-serif;
+
+   
+}
+.vid{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+}
+.publish{
+    border: 1px solid blue;
+    flex:1;
+}
+.publish p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid green;
+}
+.formulario p{
+    color:#8b8b8bcc;
+    font-size:inherit;
+}
+.vid img{
+    width: 30%;
+   
+}
+
 
 /* --------------------Footer------------------------ */
