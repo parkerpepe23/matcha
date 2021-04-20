@@ -191,7 +191,7 @@ main >:last-child{
    
 }
 /* --------------------section02------------------------ */
-.features{
+.section02{
     background-color: #025157;
     padding: 5% 10%;
     display: grid;
@@ -263,5 +263,229 @@ main >:last-child{
     margin-top: 0;
     height: 100%;
 }
-
+/* --------------------section03------------------------ */
+.section03 {
+    background-color: #a1d683;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.overview {
+    flex: 2;
+    padding-right: 100px;
+}
+.overview h2 {
+    font-family: "Alegreya", serif;
+    font-size: 51px;
+    line-height: 61px;
+    font-weight: 800;
+    color: #025157;
+}
+.overview p {
+    color: #343434;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+.overview button {
+    font-size: 14px;
+    padding: 12px 12px 6px 12px;
+    border-radius: 8px;
+    height: 45px;
+    font-weight: 600;
+    margin-left: 0;
+}
+.overview img {
+    width: 500px;
+    max-width: 100%;
+}
+.stories{
+    flex:1;
+}
+.carrusel{
+    position: relative;
+}
+.inner{
+    position: relative;
+    width: 100%;
+}
+.carrusel-item{
+    position: relative;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+}
+.card{
+    max-width: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card-media {
+    position: relative;
+}
+.card-media img {
+    width: 100%;
+    max-height: 16vw;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-media figure {
+    margin: 0;
+}
+.company {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.company img {
+    max-width: 75%;
+}
+.card-body{
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 20px;
+}
+.card-body h4 {
+    color: #025157;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 12px;
+}
+.card-body h3 {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.results {
+    display: flex;
+    align-items: center;
+    color: #828282;
+}
+.results img {
+    width: 26px;
+    margin-right: 20px;
+}
+.results p {
+    margin-top: 0;
+}
+.card-footer {
+    margin-bottom: 20px;
+    background-color: unset;
+    border-top: unset;
+    padding: 25px;
+}
+.card-footer button {
+    display: block;
+    margin-left: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 12px 20px;
+    width: 100%;
+}
+/* --------------------Section04------------------------ */
+.section04 {
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+.section04 h2 {
+    color: #025157;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    font-family: "Alegreya", serif;
+    margin-bottom: 8px;
+}
+.description {
+    max-width: 60%;
+    color: #46484c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.description a {
+    color: #67b54b;
+    text-decoration: none;
+}
+button {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 12px 12px 6px 12px;
+    height: 45px;
+    margin-left: 0;
+    border-radius: 8px;
+    margin-top: 6px;
+}
+.steps {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card-step {
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.card-step-image {
+    position: relative;
+    height: 350px;
+}
+.card-step-bg {
+    width: 100%;
+    height: 100%;
+}
+.card-step-icon {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 21px;
+}
+.card-step-body {
+    padding: 25px;
+}
+.card-step-body h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Open Sans", sans-serif;
+    color: #025157;
+    font-weight: 700;
+    text-align: center;
+}
+.card-step-body p {
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: "Open Sans", sans-serif;
+    color: #46484c;
+    font-weight: 500;
+    height: 85px;
+    margin-bottom: 16px;
+}
+.card-step-body a {
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "Open Sans", sans-serif;
+    color: #67b54b;
+    font-weight: 700;
+    text-decoration: none;
+}
+/* --------------------Footer------------------------ */
+/* --------------------Footer------------------------ */
 /* --------------------Footer------------------------ */
