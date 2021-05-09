@@ -1,0 +1,201 @@
+//Partials
+@use 'global' as *;
+// main{
+//     @extend %formu;
+// }
+// .section01{
+//     @extend %formu;
+// }
+.section05{
+    padding: 0px;
+    margin:0px;
+
+    .blog{
+        background-color: #ffffff;
+        max-width: unset;
+        padding: 5% 10%;
+        .title{
+            @extend %base-title;
+        }
+        .process-list{
+            margin-top: 40px;
+            margin-bottom: 36px;
+            
+            .process{
+                display:flex;
+                margin-bottom: 25px;
+                & > div {
+                    & > h3 {
+                      color: $dark-green-title;
+                      margin-bottom: 0;
+                      font-size: 30px;
+                      font-weight: 500;
+                    }
+                    & > p {
+                      color: $dark-green-text;
+                      margin: 0;
+                    }
+                }
+                .process-icon {
+                    width: 60px;
+                    height: 60px;
+                    margin-right: 10px;
+                    text-align: center;
+    
+                    img{
+                        height: 100%;
+                        width: 50px;
+                    }
+    
+                }
+            }
+        }
+        button {
+            height: auto;
+            border-top-left-radius:8px;
+            border-bottom-left-radius: 8px;
+            padding: 12px;
+            width: 180px;
+            margin-bottom: 15px;
+        }
+        .metadata{
+            .category{
+                color: $ligth-green;
+            }
+            .read-time{
+                color: $ligth-gray;
+            }
+        }
+        .author > p {
+            color: $gray;
+            font-weight: 300;
+        }
+    }
+}
+.section06{
+    // @extend %formu;
+    .home-people {
+        background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/home_people.png");
+        background-position: center;
+        background-size: cover;
+        background-color: white;
+        height: 350px;
+    }
+    .try-it {
+        padding: 5% 5% 2%;
+        background-color: #96d178;
+        margin-top: -30px;
+        h2 {
+            @extend %base-title;
+            font-size: 60px;
+            font-weight: 800;
+        }
+        form {
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        p {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}
+.section07{
+    .cajon {
+        padding: 5% 10% 0;
+        margin: 0;
+        max-width: unset;
+    }
+    .box {
+        background-color: #025157;
+        padding: 5%;
+        border-radius: 10px;
+        h2 {
+            @extend %white-title;
+            font-size: 34px;
+            max-width: 340px;
+            line-height: 1.3;
+        }
+        p {
+            color: #fff;
+            margin-top: 15px;
+            line-height: 25px;
+            font-weight: 400;
+            font-size: 20px;
+        }
+        .badass {
+            color: #6abf4b;
+        }
+        .signup-form {
+            input {
+                border: 1px solid #b6b6b6;
+                padding: 6px 20px;
+                width: 60%;
+                max-width: 250px;
+            }
+            button {
+                background-color: #67b54b;
+                color: #fff;
+                border: none;
+                border-top-left-radius: 0;
+                border-bottom-left-radius: 0;
+                padding: 6px 10px;
+                margin-left: -10px;
+            }
+        }
+        form + p {
+            color: #b3cbcd;
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.6;
+            max-width: 340px;
+        }
+
+    }
+    
+}
+.section08{
+    padding: 5% 10% 2%;
+    margin: 0;
+    max-width: unset;
+    // @extend %formu;
+    .h2{
+        @extend %base-title;
+        font-size: 30px;
+        font-weight: 800;
+    }
+    p {
+        font-size: 16px;
+        color: #4a4a4a;
+    }
+    h4 {
+        text-transform: uppercase;
+        @extend %base-title;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    ul {
+        list-style: none;
+        li {
+            margin-bottom: 20px;
+            font-size: 18px;
+            a {
+                color: #4a4a4a;
+                text-decoration: none;
+                background-color: transparent;
+            }
+        }
+    }
+    .social {
+        margin-left: 28px;
+        a {
+            margin-right: 20px;
+        }
+    }
+    p {
+        font-size: 18px;
+        color: #4a4a4a;
+    }
+}

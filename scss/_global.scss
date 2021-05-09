@@ -1,0 +1,73 @@
+//_global.scss
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #ffffff;
+$gray: #4a4a4a;
+$ligth-gray:#979797;
+$ligth-green:#67b54b;
+
+//Fuente
+$font-title: "Alegreya", serif;
+
+//Placeholder
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-title;
+}
+%white-title{
+    font-family: $font-title;
+    color: $white
+}
+%formu{
+    height: 55px;
+    input {
+        border: 1px solid #b6b6b6;
+        padding: 6px 20px;
+        width: 60%;
+        max-width: 250px;
+        height: 100%;
+        border-radius: 8px;
+        overflow: visible;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    button {
+        height: 100%;
+        border-radius: 8px;
+        overflow: visible;
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        background-color: #025157;
+        color: #fff;
+        border: none;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        padding: 6px 10px;
+        margin-left: -10px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    optgroup {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+    select {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+        text-transform: none;
+    }
+    textarea {
+        margin: 0;
+        font-family: inherit;
+        font-size: inherit;
+        line-height: inherit;
+    }
+}

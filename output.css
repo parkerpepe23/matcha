@@ -1,0 +1,183 @@
+.section05 .blog .title, .section06 .try-it h2, .section08 .h2, .section08 h4 {
+  font-family: "Alegreya", serif;
+  color: #025157;
+}
+
+.section07 .box h2 {
+  font-family: "Alegreya", serif;
+  color: #ffffff;
+}
+
+.section05 {
+  padding: 0px;
+  margin: 0px;
+}
+.section05 .blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.section05 .blog .process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.section05 .blog .process-list .process {
+  display: flex;
+  margin-bottom: 25px;
+}
+.section05 .blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.section05 .blog .process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.section05 .blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.section05 .blog .process-list .process .process-icon img {
+  height: 100%;
+  width: 50px;
+}
+.section05 .blog button {
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.section05 .blog .metadata .category {
+  color: #67b54b;
+}
+.section05 .blog .metadata .read-time {
+  color: #979797;
+}
+.section05 .blog .author > p {
+  color: #4a4a4a;
+  font-weight: 300;
+}
+
+.section06 .home-people {
+  background-image: url("https://getmatcha.com/wp-content/themes/getmatcha/img/home_people.png");
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  height: 350px;
+}
+.section06 .try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+}
+.section06 .try-it h2 {
+  font-size: 60px;
+  font-weight: 800;
+}
+.section06 .try-it form {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+.section06 .try-it p {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section07 .cajon {
+  padding: 5% 10% 0;
+  margin: 0;
+  max-width: unset;
+}
+.section07 .box {
+  background-color: #025157;
+  padding: 5%;
+  border-radius: 10px;
+}
+.section07 .box h2 {
+  font-size: 34px;
+  max-width: 340px;
+  line-height: 1.3;
+}
+.section07 .box p {
+  color: #fff;
+  margin-top: 15px;
+  line-height: 25px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.section07 .box .badass {
+  color: #6abf4b;
+}
+.section07 .box .signup-form input {
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+}
+.section07 .box .signup-form button {
+  background-color: #67b54b;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 10px;
+  margin-left: -10px;
+}
+.section07 .box form + p {
+  color: #b3cbcd;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  max-width: 340px;
+}
+
+.section08 {
+  padding: 5% 10% 2%;
+  margin: 0;
+  max-width: unset;
+}
+.section08 .h2 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.section08 p {
+  font-size: 16px;
+  color: #4a4a4a;
+}
+.section08 h4 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+}
+.section08 ul {
+  list-style: none;
+}
+.section08 ul li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.section08 ul li a {
+  color: #4a4a4a;
+  text-decoration: none;
+  background-color: transparent;
+}
+.section08 .social {
+  margin-left: 28px;
+}
+.section08 .social a {
+  margin-right: 20px;
+}
+.section08 p {
+  font-size: 18px;
+  color: #4a4a4a;
+}
+
+/*# sourceMappingURL=output.css.map */
