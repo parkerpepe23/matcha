@@ -1,4 +1,4 @@
-.section05 .blog .title, .section06 .try-it h2, .section08 .h2, .section08 h4 {
+.section01 h3, .section03 .container h2, .section04 h2, .section05 .blog .title, .section06 .try-it h2, .section08 .h2, .section08 h4 {
   font-family: "Alegreya", serif;
   color: #025157;
 }
@@ -6,6 +6,423 @@
 .section07 .box h2 {
   font-family: "Alegreya", serif;
   color: #ffffff;
+}
+
+.section03 button, .section04 button, .section05 .blog button {
+  background-color: #025157;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 20px;
+  margin-left: 0;
+  font-weight: 500;
+  padding: 12px 20px;
+}
+
+main form, .section01 form, .section06 form, .section07 form, .section08 form {
+  height: 55px;
+}
+main form input, .section01 form input, .section06 form input, .section07 form input, .section08 form input {
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+  height: 100%;
+  border-radius: 8px;
+  overflow: visible;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+main form button, .section01 form button, .section06 form button, .section07 form button, .section08 form button {
+  height: 100%;
+  border-radius: 8px;
+  overflow: visible;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  background-color: #025157;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 10px;
+  margin-left: -10px;
+  font-size: 18px;
+  font-weight: 100;
+}
+main form optgroup, .section01 form optgroup, .section06 form optgroup, .section07 form optgroup, .section08 form optgroup {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+main form select, .section01 form select, .section06 form select, .section07 form select, .section08 form select {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  text-transform: none;
+}
+main form textarea, .section01 form textarea, .section06 form textarea, .section07 form textarea, .section08 form textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+h1 {
+  color: #025157;
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-family: "Alegreya", serif;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+h4 {
+  color: #46484c;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+body {
+  background-color: #fffbf7;
+  margin: 0px;
+  font-family: "Alegreya", serif;
+}
+body img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.navbar {
+  text-align: center;
+  font-weight: 500;
+  background-color: #fffbf7;
+}
+
+main {
+  margin: 285px 0 20px;
+  display: block;
+  text-align: center;
+}
+main .imagen img {
+  text-align: center;
+  width: 70%;
+  margin: 30px 0;
+}
+main p {
+  color: #8b8b8bcc;
+}
+
+.section01 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 100px auto;
+  font-family: "Open Sans", sans-serif;
+  padding: auto;
+}
+.section01 article {
+  padding: 0px;
+}
+.section01 h3 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+.section01 .vid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.section01 .vid img {
+  width: 30%;
+}
+.section01 .publish {
+  flex: 1;
+  padding-left: 20px;
+}
+.section01 .publish p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.section01 .formulario p {
+  color: #8b8b8bcc;
+  font-size: inherit;
+}
+
+.section02 {
+  background-color: #025157;
+  padding: 5% 10%;
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  font-family: "Open Sans", sans-serif;
+}
+.section02 .feature-card {
+  margin: 0 15px 30px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.section02 .feature-card figure {
+  margin: 0 0 1rem;
+}
+.section02 .feature-content {
+  padding: 30px 20px 40px 40px;
+  flex: 2;
+}
+.section02 .feature-content img {
+  width: 80px;
+}
+.section02 .feature-content h3 {
+  color: #025157;
+  font-size: 34px;
+  margin-top: 0;
+  font-weight: 400;
+}
+.section02 .feature-content p {
+  font-size: 26px;
+  color: #7e7e7e;
+  font-weight: 400;
+}
+.section02 .feature-content a {
+  font-size: 26px;
+  color: #67b54b;
+  font-weight: 600;
+  text-decoration: none;
+}
+.section02 .feature-content > * {
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.section02 .feature-img {
+  flex: 1;
+  position: relative;
+  width: 40%;
+  right: -50px;
+  height: 80%;
+  transition: rigth 1s;
+}
+.section02 .feature-img figure {
+  margin-top: 0;
+  height: 100%;
+}
+.section02 .feature-img img {
+  margin-top: 0;
+  height: 100%;
+}
+.section02 .feature-img:hover {
+  right: 0px;
+}
+
+.section03 {
+  background-color: #a1d683;
+}
+.section03 .container h2 {
+  font-size: 51px;
+  line-height: 61px;
+  font-weight: 800;
+}
+.section03 .container p {
+  color: #343434;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.section03 .container img {
+  width: 500px;
+  max-width: 100%;
+}
+.section03 .container .caja {
+  display: flex;
+}
+.section03 .container .caja .overview {
+  flex: 2;
+  padding-right: 100px;
+  padding-bottom: 35px;
+}
+.section03 .card {
+  max-width: 370px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+.section03 .card .card-media {
+  position: relative;
+}
+.section03 .card .card-media img {
+  width: 100%;
+  max-height: 16vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.section03 .card .card-media figure {
+  margin: 0;
+}
+.section03 .card .card-media .company {
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f9da73;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section03 .card .card-media .company img {
+  max-width: 75%;
+  width: 100%;
+  max-height: 16vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.section03 .card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 20px;
+}
+.section03 .card-body h4 {
+  color: #025157;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.section03 .card-body h3 {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+.section03 .results {
+  display: flex;
+  align-items: center;
+  color: #828282;
+}
+.section03 .results img {
+  width: 26px;
+  margin-right: 20px;
+}
+.section03 .results p {
+  margin-top: 0;
+}
+.section03 .card-footer {
+  margin-bottom: 20px;
+  background-color: unset;
+  border-top: unset;
+  padding: 25px;
+}
+.section03 .card-footer button {
+  display: block;
+  font-weight: 600;
+  width: 100%;
+}
+
+.section04 {
+  background-color: #fffbf7;
+  padding: 5% 10%;
+  text-align: center;
+}
+.section04 h2 {
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+.section04 .description {
+  max-width: 60%;
+  color: #46484c;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.section04 .description a {
+  color: #67b54b;
+  text-decoration: none;
+}
+.section04 .steps {
+  margin-top: 70px;
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template: 1fr/repeat(4, 1fr);
+}
+.section04 .steps .card-step {
+  background-color: #fff;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  margin: 15px;
+  text-align: left;
+}
+.section04 .steps .card-step .card-step-image {
+  position: relative;
+  height: 350px;
+}
+.section04 .steps .card-step .card-step-image .card-step-bg {
+  width: 100%;
+  height: 100%;
+}
+.section04 .steps .card-step .card-step-image .card-step-icon {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 21px;
+}
+.section04 .steps .card-step .card-step-body {
+  padding: 25px;
+}
+.section04 .steps .card-step .card-step-body h3 {
+  font-size: xx-large;
+  /* line-height: 36px; */
+  font-family: "Open Sans", sans-serif;
+  color: #025157;
+  font-weight: 700;
+  text-align: center;
+}
+.section04 .steps .card-step .card-step-body p {
+  font-size: medium;
+  /* line-height: 1.5; */
+  font-family: "Open Sans", sans-serif;
+  color: #46484c;
+  font-weight: 500;
+  /* height: 85px; */
+  margin-bottom: 10px;
+}
+.section04 .steps .card-step .card-step-body a {
+  font-size: medium;
+  /* line-height: 1.4; */
+  font-family: "Open Sans", sans-serif;
+  color: #67b54b;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 .section05 {
@@ -90,6 +507,9 @@
   font-weight: 500;
 }
 
+.section07 form button {
+  background-color: #67b54b;
+}
 .section07 .cajon {
   padding: 5% 10% 0;
   margin: 0;
@@ -114,21 +534,6 @@
 }
 .section07 .box .badass {
   color: #6abf4b;
-}
-.section07 .box .signup-form input {
-  border: 1px solid #b6b6b6;
-  padding: 6px 20px;
-  width: 60%;
-  max-width: 250px;
-}
-.section07 .box .signup-form button {
-  background-color: #67b54b;
-  color: #fff;
-  border: none;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 6px 10px;
-  margin-left: -10px;
 }
 .section07 .box form + p {
   color: #b3cbcd;

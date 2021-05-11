@@ -18,8 +18,20 @@ $font-title: "Alegreya", serif;
     font-family: $font-title;
     color: $white
 }
+%botonazo{
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 6px 20px;
+    margin-left: 0;
+    font-weight: 500;
+    padding: 12px 20px;
+}
 %formu{
+    
     height: 55px;
+    
     input {
         border: 1px solid #b6b6b6;
         padding: 6px 20px;
@@ -70,4 +82,5 @@ $font-title: "Alegreya", serif;
         font-size: inherit;
         line-height: inherit;
     }
+
 }
