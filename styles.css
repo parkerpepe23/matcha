@@ -105,7 +105,7 @@
     .overview{
         padding-right: 0px;
     }
-    .steps {
+    .section04 .steps {
         grid-template-columns: 1fr;
     }
     .section05 .col-sm{
@@ -124,8 +124,15 @@
     .col-sm{
         padding: 0px;
     }
+    .col{
+        padding-bottom: 19px;
+    }
+    .section07 form input{
+        padding: 5px;
+        width: 50%;
+    }
     .section08 .row{
-        text-align: center;
+        text-align: left;
     }
 }
 
