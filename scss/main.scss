@@ -563,3 +563,206 @@ main{
         color: #4a4a4a;
     }
 }
+@media (max-width:$breakpoint-movil) {
+    h1{
+        font-size: 30px;
+    } 
+    main{
+        margin-top: 130px;
+        .imagen{
+            display: none;
+        }
+        .banner > * {
+            width: 100%;
+        }
+    }
+    h4{
+        padding: 2%;
+    }
+    .section01{
+        flex-direction: column;
+        width: 90%;
+        .vid > video{
+            width:100%;
+        }
+        .publish{
+            margin-top: 10px;
+            h3{
+                font-size: 30px;
+                line-height: 1.2;
+            }
+            .formulario{
+                height: 50px;
+                margin-top: 10px;
+                .signup-form input{
+                    width:60%;
+                }
+            }
+        }
+    }
+    .section02{
+        grid-template: repeat(4,1fr) / 1fr;
+        padding:5% 0;
+        .feature-content {
+            img{
+                width: 60px;
+            }
+            h3{
+                color: #025157;
+                font-size: 24px;
+                margin-top:0;
+                font-weight:400;
+            }
+            p {
+                font-size: 16px;
+                color: #7e7e7e;
+                font-weight: 400;
+            }
+            a {
+                font-size: 16px;
+                color: #67b54b;
+                font-weight: 600;
+                text-decoration: none;
+            }
+        }
+        .feature-img{
+            display: none;
+        }
+    }
+    .section03{
+        .overview{
+            padding-right: 0px;
+        }
+        .card-media{
+            display: none;
+        }
+    }
+    .section04{
+        .steps{
+            grid-template-columns: 1fr;
+        }
+        
+    }
+    .section05{
+        .col{
+            padding-top: 5px;
+            padding-bottom: 15px;
+        }
+    }
+    .section06{
+        .home-people {
+            display: none;
+        }
+        .text-p{
+            display: none;
+        }
+
+    }
+    .section07 {
+        form {
+            input{
+                padding: 5px;
+                width: 60%;
+            }
+            button{
+                font-size: 13px;
+            }
+        }
+    }
+    .section08 {
+        .row{
+            text-align: left;
+            .ocultar{
+                display: none;
+            }
+        }
+        
+    }
+}
+@media (min-width:500px) and (max-width:1000px){
+    // body{
+    //     background-color: peru;
+    // }
+    h4{
+        padding: 2%;
+    }
+    .section01{
+        flex-direction: column;
+        .publish {
+            h3{
+                font-size: 30px;
+                line-height: 1.2;
+            }
+        }
+    }
+    .section02{
+        grid-template: repeat(4,1fr) / 1fr;
+        padding:5% 0;
+        .feature-content{
+            img{
+                width: 60px;
+            }
+            h3{
+                color: #025157;
+                font-size: 24px;
+                margin-top:0;
+                font-weight:400;
+            }
+            p {
+                font-size: 16px;
+                color: #7e7e7e;
+                font-weight: 400;
+            }
+            a {
+                font-size: 16px;
+                color: #67b54b;
+                font-weight: 600;
+                text-decoration: none;
+            } 
+        }
+    }
+    .section03{
+        img{
+            display: none;
+        }
+        .card{
+            .card-media{
+                .company{
+                display: none;
+                }
+            }
+        }
+    }
+    .section04{
+        .steps {
+            grid-template-columns: 1fr 1fr; 
+        }
+    }
+    .section05{
+        .col-sm{
+            padding-top: 5px;
+            padding-bottom: 15px;
+        }
+    }
+    .section06{
+        .home-people {
+            display: none;
+        }
+        .text-p{
+            display: none;
+        }
+    }
+    .section07 {
+        form {
+            input{
+                padding: 5px;
+                width: 60%;
+            }
+            button{
+                font-size: 13px;
+                padding: 5px;
+            }
+        }
+    }
+    
+}

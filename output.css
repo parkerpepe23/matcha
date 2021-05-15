@@ -585,4 +585,182 @@ main p {
   color: #4a4a4a;
 }
 
+@media (max-width: 499px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  main {
+    margin-top: 130px;
+  }
+  main .imagen {
+    display: none;
+  }
+  main .banner > * {
+    width: 100%;
+  }
+
+  h4 {
+    padding: 2%;
+  }
+
+  .section01 {
+    flex-direction: column;
+    width: 90%;
+  }
+  .section01 .vid > video {
+    width: 100%;
+  }
+  .section01 .publish {
+    margin-top: 10px;
+  }
+  .section01 .publish h3 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .section01 .publish .formulario {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .section01 .publish .formulario .signup-form input {
+    width: 60%;
+  }
+
+  .section02 {
+    grid-template: repeat(4, 1fr)/1fr;
+    padding: 5% 0;
+  }
+  .section02 .feature-content img {
+    width: 60px;
+  }
+  .section02 .feature-content h3 {
+    color: #025157;
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  .section02 .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  .section02 .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .section02 .feature-img {
+    display: none;
+  }
+
+  .section03 .overview {
+    padding-right: 0px;
+  }
+  .section03 .card-media {
+    display: none;
+  }
+
+  .section04 .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .section05 .col {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+  .section06 .home-people {
+    display: none;
+  }
+  .section06 .text-p {
+    display: none;
+  }
+
+  .section07 form input {
+    padding: 5px;
+    width: 60%;
+  }
+  .section07 form button {
+    font-size: 13px;
+  }
+
+  .section08 .row {
+    text-align: left;
+  }
+  .section08 .row .ocultar {
+    display: none;
+  }
+}
+@media (min-width: 500px) and (max-width: 1000px) {
+  h4 {
+    padding: 2%;
+  }
+
+  .section01 {
+    flex-direction: column;
+  }
+  .section01 .publish h3 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .section02 {
+    grid-template: repeat(4, 1fr)/1fr;
+    padding: 5% 0;
+  }
+  .section02 .feature-content img {
+    width: 60px;
+  }
+  .section02 .feature-content h3 {
+    color: #025157;
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 400;
+  }
+  .section02 .feature-content p {
+    font-size: 16px;
+    color: #7e7e7e;
+    font-weight: 400;
+  }
+  .section02 .feature-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .section03 img {
+    display: none;
+  }
+  .section03 .card .card-media .company {
+    display: none;
+  }
+
+  .section04 .steps {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section05 .col-sm {
+    padding-top: 5px;
+    padding-bottom: 15px;
+  }
+
+  .section06 .home-people {
+    display: none;
+  }
+  .section06 .text-p {
+    display: none;
+  }
+
+  .section07 form input {
+    padding: 5px;
+    width: 60%;
+  }
+  .section07 form button {
+    font-size: 13px;
+    padding: 5px;
+  }
+}
+
 /*# sourceMappingURL=output.css.map */

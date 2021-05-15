@@ -35,7 +35,7 @@
 /* --------------------responsive------------------------ */
 
 
-@media screen and (max-width:499px) {
+/* @media screen and (max-width:499px) {
    
     h1{
         font-size: 30px;
@@ -134,9 +134,9 @@
     .section08 .row{
         text-align: left;
     }
-}
+} */
 
-@media (min-width:500px) and (max-width:1000px){
+/* @media (min-width:500px) and (max-width:1000px){
     
     body{
         background-color: peru;
@@ -181,7 +181,7 @@
         text-decoration: none;
     } 
     .steps {
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr; 
     }
     .section05 .col-sm{
         padding-top: 5px;
@@ -193,5 +193,5 @@
     .text-p{
         display: none;
     }
-}
+} */
     
